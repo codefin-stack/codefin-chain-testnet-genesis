@@ -1,7 +1,7 @@
 #!/bin/sh
 
-DATA_DIR=$1
-MONIKER=$2
+DATA_DIR=/root/.ethermintd
+MONIKER=$1
 
 cp ./config/app.toml $DATA_DIR/config/app.toml 
 cp ./config/client.toml $DATA_DIR/config/client.toml 
