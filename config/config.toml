@@ -15,7 +15,7 @@
 proxy_app = "tcp://127.0.0.1:26658"
 
 # A custom human readable name for this node
-moniker = "codefin"
+moniker = "orchestrator"
 
 # If this node is many blocks behind the tip of the chain, FastSync
 # allows them to catchup quickly by downloading blocks in parallel
@@ -134,7 +134,7 @@ max_subscription_clients = 100
 # Maximum number of unique queries a given client can /subscribe to
 # If you're using GRPC (or Local RPC client) and /broadcast_tx_commit, set to
 # the estimated # maximum number of broadcast_tx_commit calls per block.
-max_subscriptions_per_client = 5
+max_subscriptions_per_client = 500
 
 # Experimental parameter to specify the maximum number of events a node will
 # buffer, per subscription, before returning an error and closing the
@@ -212,7 +212,7 @@ external_address = ""
 seeds = ""
 
 # Comma separated list of nodes to keep persistent connections to
-persistent_peers = "cof-01@178.128.51.34:26656,cof-02@178.128.51.165:26656,cof-03@157.245.154.125:26656,cof-04@157.245.147.254:26656"
+persistent_peers = "cofn-1@178.128.51.34:26656,cofn-2@178.128.51.165:26656,cofn-3@157.245.154.125:26656,cofn-4@157.245.147.254:26656"
 
 # UPNP port forwarding
 upnp = false

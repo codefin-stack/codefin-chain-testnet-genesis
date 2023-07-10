@@ -6,7 +6,7 @@
 ###############################################################################
 
 # The network chain ID
-chain-id = "codefin_9000-1"
+chain-id = "cofn_9000-1"
 # The keyring's backend, where the keys are stored (os|file|kwallet|pass|test|memory)
 keyring-backend = "os"
 # CLI output format (text|json)

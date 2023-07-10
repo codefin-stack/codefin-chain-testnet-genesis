@@ -14,7 +14,7 @@ minimum-gas-prices = "0cof"
 # nothing: all historic states will be saved, nothing will be deleted (i.e. archiving node)
 # everything: 2 latest states will be kept; pruning at 10 block intervals.
 # custom: allow pruning options to be manually specified through 'pruning-keep-recent', and 'pruning-interval'
-pruning = "default"
+pruning = "nothing"
 
 # These are applied if and only if the pruning strategy is custom.
 pruning-keep-recent = "0"
@@ -175,7 +175,7 @@ gas-to-suggest = 200000
 
 # DenomToSuggest defines the defult denom for fee suggestion.
 # Price must be in minimum-gas-prices.
-denom-to-suggest = "uatom"
+denom-to-suggest = "cof"
 
 ###############################################################################
 ###                           gRPC Configuration                            ###
