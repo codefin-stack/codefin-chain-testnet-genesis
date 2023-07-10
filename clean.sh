@@ -1,1 +1,1 @@
-rm -rf /root/.ethermintd/config/*.db snapshot
+rm -rf /root/.ethermintd/data/*.db snapshots
