@@ -1,0 +1,1 @@
+ethermintd start --rpc.unsafe --json-rpc.enable true --api.enable >/root/.ethermintd/node.log
