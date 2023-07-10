@@ -216,7 +216,7 @@
                     "mode": "SIGN_MODE_DIRECT"
                   }
                 },
-                "sequence": "1"
+                "sequence": "0"
               }
             ],
             "fee": {
@@ -278,7 +278,7 @@
                     "mode": "SIGN_MODE_DIRECT"
                   }
                 },
-                "sequence": "1"
+                "sequence": "0"
               }
             ],
             "fee": {
@@ -340,7 +340,7 @@
                     "mode": "SIGN_MODE_DIRECT"
                   }
                 },
-                "sequence": "1"
+                "sequence": "0"
               }
             ],
             "fee": {
@@ -402,7 +402,7 @@
                     "mode": "SIGN_MODE_DIRECT"
                   }
                 },
-                "sequence": "1"
+                "sequence": "0"
               }
             ],
             "fee": {
