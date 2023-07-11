@@ -6,8 +6,9 @@ After=network.target
 User=root
 Group=root
 Environment=PATH=/usr/bin:/usr/local/bin
-ExecStart=ethermintd start --rpc.unsafe --json-rpc.enable true --api.enable
+ExecStart=/usr/local/bin/ethermintd start --rpc.unsafe --json-rpc.enable true --api.enable
 Restart=always
+WorkingDirectory=/root
 StandardOutput=append:/var/log/cofn/output.log
 StandardError=append:/var/log/cofn/error.log
 
