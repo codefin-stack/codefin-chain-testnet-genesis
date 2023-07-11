@@ -1,0 +1,15 @@
+[Unit]
+Description=Codefin Chain Service
+After=network.target
+
+[Service]
+User=root
+Group=root
+Environment=PATH=/usr/bin:/usr/local/bin
+ExecStart=ethermintd start --rpc.unsafe --json-rpc.enable true --api.enable
+Restart=always
+StandardOutput=append:/var/log/cofn/output.log
+StandardError=append:/var/log/cofn/error.log
+
+[Install]
+WantedBy=multi-user.target
